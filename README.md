@@ -59,6 +59,15 @@ Aside from Okta, most of the providers in this project are using screen scraping
 
 ## Install
 
+### Linux
+
+If you're on Linux (Centos/Redhat 7) you can install saml2aws using tar file!
+
+```
+wget https://github.com/Versent/saml2aws/releases/download/v2.20.0/saml2aws_2.20.0_linux_amd64.tar.gz
+tar xzvf saml2aws_2.20.0_linux_amd64.tar.gz -C /usr/local/bin/
+```
+
 ### OSX
 
 If you're on OSX you can install saml2aws using homebrew!
